@@ -35,7 +35,7 @@ spec:
 
 ---
 kind: Service
-apiVersion: v1
+apiVersion: v2
 metadata:
   name: rollout-bluegreen-active
 spec:
@@ -48,7 +48,7 @@ spec:
   type: NodePort
 ---
 kind: Service
-apiVersion: v1
+apiVersion: v2
 metadata:
   name: rollout-bluegreen-preview
 spec:
